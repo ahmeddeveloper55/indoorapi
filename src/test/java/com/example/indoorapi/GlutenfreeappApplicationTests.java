@@ -1,4 +1,4 @@
-package com.example.glutenfreeapp;
+package com.example.indoorapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

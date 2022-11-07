@@ -1,7 +1,7 @@
-package com.example.glutenfreeapp;
+package com.example.indoorapi;
 
-import com.example.glutenfreeapp.Model.Data;
-import com.example.glutenfreeapp.Repo.remotest1;
+import com.example.indoorapi.Model.Data;
+import com.example.indoorapi.Repo.remotest1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,7 +18,7 @@ public class modelController {
         this.rp = rp;
     }
 
-    @RequestMapping(value = "/allergy",method = RequestMethod.GET)
+    @RequestMapping(value = "/indoor",method = RequestMethod.GET)
     public List<Data> getlist(){
         return rp.findAll();
     }
